@@ -56,6 +56,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+
       <div className={style.newProducts}>
         <h1>Newly Added</h1>
         <div className={style.itemContainer}>
