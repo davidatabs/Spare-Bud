@@ -1,0 +1,169 @@
+/* ======================== */
+/* ===== Active Item ====== */
+
+.activeComponent {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  /* height: fit-content; */
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: var(--black-10, #ccc);
+}
+
+.leftColumn {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+}
+.leftColumn > img {
+  height: 90%;
+  border-radius: 12px;
+}
+
+.itemDetails {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.itemName {
+  font-size: 18px;
+  padding-bottom: 4px;
+}
+
+.itemDescription {
+  font-size: 12px;
+  width: 78%;
+  line-height: 18px; /* 150% */
+}
+
+.pricings > p {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.forSale {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 4px;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activityBTNs {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.activityBTNs span {
+  display: flex;
+  align-items: center;
+  color: var(--Primary5, #bb70c0);
+  font-weight: 600;
+}
+
+/* ======================== */
+/* ===== Inactive Item ====== */
+.inactiveComponent {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  /* height: fit-content; */
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: var(--White-20, #ededed);
+}
+
+/* ======================== */
+/* ===== Lending Item ====== */
+.lendingRightColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.TbuttonContainer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 6px;
+}
+.TbuttonContainer > button {
+  width: 131px;
+  height: 50px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 1px solid var(--Primary8, #743778);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.lendingDetails {
+  display: flex;
+  flex-direction: column;
+  column-gap: 4px;
+}
+
+.lendingDetails p {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.lendingDetails p span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-right: 3px;
+}
+.lendingDetails p div {
+  align-self: center;
+}
+
+.lendingActivityBTNs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lendingActivityBTNs span {
+  display: flex;
+  align-items: center;
+  color: var(--Primary5, #bb70c0);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ======================== */
+/* ===== Borrowed Item ====== */
+.borrowedActivityBTNs {
+  display: flex;
+  column-gap: 12px;
+  cursor: pointer;
+}
+
+.borrowedActivityBTNs span {
+  display: flex;
+  align-items: center;
+  color: var(--Primary5, #bb70c0);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.borrowedRightColumn {
+  display: flex;
+  align-items: flex-end;
+}

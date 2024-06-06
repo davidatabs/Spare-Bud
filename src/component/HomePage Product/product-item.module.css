@@ -1,0 +1,121 @@
+.productItemContainer {
+  display: flex;
+  /* width: fit-content; */
+  width: 16.25rem;
+  height: max-content;
+  padding: 0.75rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 0.75rem;
+  background: var(--White-20, #ededed);
+}
+
+.productItemName {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: var(--Black-Text, #1e1e1e);
+}
+
+.productItemDescription {
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 1.125rem; */
+  width: 85%;
+  color: var(--Black-Text, #1e1e1e);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: start;
+}
+
+.horizontalLine {
+  width: 13.875rem;
+  height: 0.0625rem;
+  background: #d4d4d4;
+}
+
+.productItemRow2 {
+  display: flex;
+  justify-content: space-between;
+  width: 13.875rem;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dailyPrice {
+  display: flex;
+  align-items: center;
+  color: var(--Black-Text, #1e1e1e);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.weeklyPrice {
+  display: flex;
+  align-items: center;
+  color: var(--Black-Text, #1e1e1e);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.monthlyPrice {
+  display: flex;
+  align-items: center;
+  color: var(--Black-Text, #1e1e1e);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.forSaleContainer {
+  display: flex;
+  padding-top: 0.75rem;
+}
+
+.forSale {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: var(--Black-Text, #1e1e1e);
+}
+
+.currentSalePrice {
+  display: flex;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: var(--Black-Text, #1e1e1e);
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImg {
+  width: 3.375rem;
+  height: 3.3125rem;
+  border-radius: 3.375rem;
+}
+
+.rating svg {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}

@@ -1,0 +1,60 @@
+.activityUiContainer {
+  display: flex;
+  column-gap: 5rem;
+  background: var(--White-10-Background, #f4f4f4);
+}
+
+.activityListContainer {
+  display: flex;
+  width: 20%;
+  padding-block: 7.5rem;
+  /* padding-inline: 4.5rem; */
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 2.0625rem;
+  background: var(--White-20, #ededed);
+}
+.activityListContainer li {
+  list-style-type: none;
+  display: flex;
+  padding: 0.25rem 4.5rem;
+  padding-inline: auto;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  /* border-radius: 0.75rem; */
+  color: var(--Black-Text, #1e1e1e);
+  font-size: 1.3rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.selected {
+  background: var(--Primary1, #efddf0);
+}
+
+.myItems {
+  padding-block: 32px 120px;
+}
+
+.myItemsHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-block: 32px;
+}
+
+.itemsActiveness {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.lendingItemsActiveness {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.lendingItemsActiveness > p {
+  color: var(--Primary9, #572a5a);
+  font-weight: 600;
+}

@@ -1,0 +1,38 @@
+.pinkBtn {
+  width: 10.5em;
+  height: 3.5em;
+  border: 0;
+  border-radius: 0.75rem;
+  background: #c98ccd;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.transparentBtn {
+  width: 10.5em;
+  height: 3.5em;
+  border: 0;
+  background: transparent;
+  border-radius: 0.75rem;
+  border: 1px solid var(--Primary8, #743778);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  cursor: pointer;
+}
+
+.customPinkBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 8px;
+  width: 10.5em;
+  height: 3.5em;
+  border: 0;
+  border-radius: 0.75rem;
+  background: #c98ccd;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.customPinkBtn p {
+  font-size: 16px;
+  font-weight: 600;
+}

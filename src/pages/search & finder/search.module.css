@@ -1,0 +1,116 @@
+.searchUIContainer {
+  display: flex;
+  column-gap: 3.3rem;
+  background: var(--White-10-Background, #f4f4f4);
+}
+
+/* ===================================== */
+/*        SEARCH OPTION CONTAINER       */
+
+.searchOptionContainer {
+  display: flex;
+  /* width: 17.125rem; */
+  /* height: 80.125rem; */
+  /* padding: 7.5rem 0rem; */
+  padding-block: 4.75rem;
+  padding-inline: 2.5rem 2.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.0625rem;
+  background: var(--White-20, #ededed);
+}
+
+.searchInputContainer {
+  display: flex;
+  /* width: 21rem; */
+  height: 3.5rem;
+  padding: 1.25rem;
+  /* padding-inline: 2rem; */
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--Primary7, #914596);
+}
+
+.searchInputContainer input {
+  border: 0;
+}
+.searchInputContainer input:focus {
+  outline: 0;
+}
+
+.cancelSvg {
+  cursor: pointer;
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.filterHeader {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.filterBtnSection {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+
+.filterBtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2.75rem;
+}
+
+.filterBtnContainer button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 3.5rem;
+  padding: 1.25rem;
+  gap: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--Primary7, #914596);
+}
+
+.btnArrow {
+  cursor: pointer;
+  /* z-index: 1; */
+}
+
+.clearBtn {
+  margin-bottom: 1.6rem;
+}
+
+/* ===================================== */
+/*        SEARCH RESULT CONTAINER       */
+
+.searchResultContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding-block: 5rem;
+}
+
+.noResultAlert {
+  padding-top: 25px;
+  color: var(--Black-Text, #1e1e1e);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.searchResultItem {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 3rem;
+  column-gap: 1.5rem;
+}

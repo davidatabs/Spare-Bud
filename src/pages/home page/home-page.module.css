@@ -1,0 +1,107 @@
+/* ============================= */
+/*  Landing Page Slider Section  */
+
+.landingPageSlider {
+  display: flex;
+  align-items: center;
+  padding: 7.375rem 21.375rem 4.0625rem 21.3125rem;
+  color: white;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/public/assets/img/Property\ 1=Frame\ 382.jpg);
+}
+
+.sliderSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 1.5rem;
+}
+
+.sliderSection h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: left;
+  /* margin-bottom: 12px; */
+}
+
+.sliderSection h1 span {
+  color: #ae53b4;
+  line-height: 4.25rem;
+}
+
+.sliderSectionDescription {
+  line-height: 1.7;
+  width: 60%;
+}
+
+.landingPageInputContainer {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.landingPageInputSvg {
+  position: absolute;
+  top: 25%;
+  left: 1.25em;
+}
+
+#landingPageInputField {
+  width: 21em;
+  /* height: 3.5rem; */
+  padding: 1.25em;
+  padding-left: 3.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid #914596;
+  color: white;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.landingPageInputBtn {
+  width: 10.5em;
+  padding: 1.3em;
+  border: 0;
+  border-radius: 0.75rem;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+  background: #c98ccd;
+  cursor: pointer;
+}
+
+.landingPageSliderLastBtn {
+  display: flex;
+  align-self: center;
+  column-gap: 1.75rem;
+}
+.landingPageSliderLastBtn p {
+  align-self: center;
+}
+
+.landingPageListItemBtn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #743778;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* ============================ */
+/*         New Products        */
+
+.newProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+  padding: 2.5rem;
+  background: var(--White-10-Background, #f4f4f4);
+}
+
+.itemContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2.5rem;
+}

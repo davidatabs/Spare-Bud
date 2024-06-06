@@ -1,0 +1,354 @@
+/* =========================== */
+/*      Landing Page Header    */
+
+.logo {
+  height: 50px;
+  width: 50px;
+  /* background: url(/public/assets/img/logo/Logo2.jpg); */
+}
+
+.landingPageHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 2.5rem;
+  padding-block: 0.5rem;
+}
+
+.landingPageNav {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.landingPageNav span {
+  padding: 1rem;
+  cursor: pointer;
+  color: black;
+}
+
+.login {
+  width: 6.25em;
+  height: 3.5em;
+
+  /* padding: 0.75rem 1.5rem; */
+  border-radius: 0.75rem;
+  border: 1px solid #743778;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.signUp {
+  width: 10.5em;
+  height: 3.5em;
+  border: 0;
+  border-radius: 0.75rem;
+  background: #c98ccd;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* ============================= */
+/*  Landing Page Slider Section  */
+
+.landingPageSlider {
+  display: flex;
+  align-items: center;
+  padding: 7.375rem 21.375rem 4.0625rem 21.3125rem;
+  color: white;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/public/assets/img/landing-Page/LandingPageSlide.jpg);
+}
+
+.sliderSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 1.5rem;
+}
+
+.sliderSection h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: left;
+  /* margin-bottom: 12px; */
+}
+
+.sliderSection h1 span {
+  color: #ae53b4;
+  line-height: 4.25rem;
+}
+
+.sliderSectionDescription {
+  line-height: 1.7;
+  width: 60%;
+}
+
+.landingPageInputContainer {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.landingPageInputSvg {
+  position: absolute;
+  top: 25%;
+  left: 1.25em;
+}
+
+#landingPageInputField {
+  width: 21em;
+  /* height: 3.5rem; */
+  padding: 1.25em;
+  padding-left: 3.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid #914596;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.landingPageInputBtn {
+  width: 10.5em;
+  padding: 1.3em;
+  border: 0;
+  border-radius: 0.75rem;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+  background: #c98ccd;
+  cursor: pointer;
+}
+
+.landingPageSliderLastBtn {
+  display: flex;
+  align-self: center;
+  column-gap: 1.75rem;
+}
+.landingPageSliderLastBtn p {
+  align-self: center;
+}
+
+.landingPageListItemBtn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #743778;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* ========================= */
+/*      Explore Category    */
+
+.exploreCategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  row-gap: 5rem;
+  background: var(--White-10-Background, #f4f4f4);
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 6rem;
+  row-gap: 3.56rem;
+}
+
+.moreCategoriesLink {
+  padding: 2rem;
+  padding-top: 0rem;
+  align-self: flex-start;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ================================ */
+/*      Communication Connection    */
+
+.communicationConnectionContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4.75rem;
+  padding: 6rem;
+  background: var(--White-10-Background, #f4f4f4);
+}
+.communicationConnectionContainer h1 {
+  align-self: center;
+}
+
+.communityCommentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.ccComment {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.75rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: #f8f8f8;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+  transition: 0.3s;
+}
+.ccComment:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.ccCommentImg {
+  width: 4rem;
+  height: 4.25rem;
+  border-radius: 5.25rem;
+}
+.ccComment p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  padding-top: 0.25rem;
+  text-align: center;
+}
+
+.ccRating {
+  align-self: center;
+}
+
+/* =========================== */
+/*      How SpareBud Works    */
+
+.landingPageSparebudGuide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 6rem;
+  padding: 6rem;
+  background: var(--White-10-Background, #f4f4f4);
+}
+
+.sbGuideboxContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 1.5rem;
+  row-gap: 3rem;
+}
+
+.sbGuidebox {
+  display: flex;
+  /* width: max-content; */
+  height: 14.5rem;
+  padding: 2rem 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--Primary2, #e4c6e6);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+/* ====================== */
+/*      Start Earning    */
+
+.startEarning {
+  display: flex;
+  padding: 6rem;
+  background: var(--Primary1, #efddf0);
+  column-gap: 5rem;
+}
+
+.startEarningLeftColumn {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1.5rem;
+}
+
+.startEarningLeftColumn p {
+  line-height: 1.6rem;
+}
+
+.startEarningRightColumn {
+  display: grid;
+  place-items: center;
+  width: 50%;
+}
+
+/* ======================== */
+/*      Start Borrowing    */
+
+.startBorrowing {
+  display: flex;
+  padding: 6rem;
+  column-gap: 8rem;
+  background: var(--White-10-Background, #f4f4f4);
+}
+
+.startBorrowingLeftColumn {
+  display: grid;
+  place-items: center;
+  width: 50%;
+}
+
+.startBorrowingRightColumn {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1.5rem;
+}
+
+.startBorrowingRightColumn p {
+  line-height: 1.6rem;
+}
+
+/* ======================== */
+/*           CTA           */
+.landingPageCTA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  row-gap: 2.5rem;
+  background: var(--Primary1, #efddf0);
+}
+
+.landingPageCTAdescription {
+  text-align: center;
+  line-height: 1.7rem;
+}
+
+.landingPageCTAInput {
+  width: 21em;
+  /* height: 3.5rem; */
+  padding: 1.25em;
+  padding-left: 3.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid #914596;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.landingPageCTABtn {
+  width: 10.5em;
+  padding: 1.3em;
+  border: 0;
+  border-radius: 0.75rem;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 600;
+  background: #c98ccd;
+  cursor: pointer;
+}
+
+.landingPageCTAdisclaimer {
+  font-size: 0.875rem;
+  font-weight: 400;
+  width: 45%;
+  line-height: 1rem;
+}

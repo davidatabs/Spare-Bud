@@ -1,0 +1,174 @@
+.newUserXContainer {
+  display: flex;
+  column-gap: 5rem;
+  background: var(--White-10-Background, #f4f4f4);
+  /* width: 100vw; */
+}
+
+/* ======================= */
+/*        USER OPTIONS       */
+
+.newUserOptionsContainer {
+  display: flex;
+  width: 17.125rem;
+  padding-block: 7.5rem;
+  padding-inline: 4.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.0625rem;
+  background: var(--White-20, #ededed);
+}
+
+.newUserOptionsContainer li {
+  list-style-type: none;
+  display: flex;
+  padding: 0.25rem 0.5rem;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  /* align-self: stretch; */
+  border-radius: 0.75rem;
+  color: var(--Black-Text, #1e1e1e);
+  font-size: 1.3rem;
+  font-weight: 400;
+  cursor: pointer;
+  /* background: var(--Primary1, #efddf0); */
+}
+
+/* ======================= */
+/*        USER FORM       */
+
+.NewUserForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding-block: 5rem;
+}
+
+.NewUserForm h1 {
+  padding-bottom: 1rem;
+}
+
+.profileImageSetup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.profileImageSetup img {
+  width: 11.25rem;
+  height: 11.25rem;
+}
+
+.profileImageSetup button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--Primary8, #743778);
+  cursor: pointer;
+}
+
+.newUserInputContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5.5rem;
+  row-gap: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.newUserInputHolder {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.newUserInputHolder input {
+  width: 21rem;
+  height: 3.5rem;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--Primary7, #914596);
+}
+
+/* ================================ */
+/*        NOTIFICATIONs PAGE       */
+
+.notificationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-block: 6rem;
+}
+
+.notificationContainer h1 {
+  padding-bottom: 0.75rem;
+}
+
+.unreadNotification {
+  display: flex;
+  align-items: center;
+  column-gap: 0.75rem;
+  width: 93%;
+  height: 6rem;
+  padding: 0rem 1rem;
+  border-radius: 0.75rem;
+  background: var(--Primary1, #efddf0);
+}
+
+.unreadNotification span {
+  color: var(--Black-Text, #1e1e1e);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.unreadNotification p {
+  line-height: 1.75rem;
+}
+
+.readNotification {
+  display: flex;
+  align-items: center;
+  column-gap: 0.75rem;
+  width: 93%;
+  height: 6rem;
+  padding: 0rem 1rem;
+  border-radius: 0.75rem;
+  background: var(--White-20, #ededed);
+}
+
+.readNotification span {
+  color: var(--Black-Text, #1e1e1e);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.readNotification p {
+  line-height: 1.75rem;
+}
+
+.notificationUserIcon {
+  display: flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  padding: 0.875rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.25rem;
+  background: var(--black-30, #808080);
+}
+
+/* ==================================== */
+/*        NOTIFICATIONs SETTINGS       */
+
+.notificationSettingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.notificationSetting {
+  display: flex;
+  gap: 0.5rem;
+}
