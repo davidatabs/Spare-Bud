@@ -41,7 +41,7 @@ import Sports from "./pages/search & finder/sports";
 
 export const router = createBrowserRouter([
   {
-    path: "/landingPage",
+    path: "/",
     element: <LandingPage />,
   },
   {
